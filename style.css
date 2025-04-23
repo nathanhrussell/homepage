@@ -82,6 +82,10 @@ body {
     border-radius: 0.5rem;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    max-width: 300px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .work-image {
@@ -105,11 +109,14 @@ body {
 }
 
 .contact {
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
     gap: 1rem;
     margin-top: 2rem;
     align-items: center;
+    background-color: #2596be;
 }
 
 .contact-info {
@@ -127,7 +134,13 @@ body {
 .contact-photo img {
     width: 100%;
     max-width: 300px;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    border-radius: 0.5rem;
+    display: block;
+    margin: 0 auto;
 }
+
+.work-card:nth-child(1) .work-image { background-color: #7c75ca; }
+.work-card:nth-child(2) .work-image { background-color: #d88f39; }
+.work-card:nth-child(3) .work-image { background-color: #5e8f4d; }
+.work-card:nth-child(4) .work-image { background-color: #ca7599; }
+.work-card:nth-child(5) .work-image { background-color: #4692d9; }
+.work-card:nth-child(6) .work-image { background-color: #5e8f4d; }
