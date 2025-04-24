@@ -130,17 +130,17 @@ body {
 }
 
 .work-icons {
-    margin-top: 0.5rem;
+    margin: 0;
     display: flex;
     gap: 0.5rem;
     font-size: 1.2rem;
+    align-items: center;
 }
 
-.work-icons img {
+.work-icons i, img {
     width: 1.2rem;
     height: 1.2rem;
-    display: inline-block;
-    vertical-align: middle;
+    display: block;
   }
 
 .contact {
@@ -153,6 +153,18 @@ body {
     align-items: center;
     background-color: #2596be;
 }
+
+.work-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .work-header h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
 
 .contact-info {
     text-align: center;
