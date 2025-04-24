@@ -13,11 +13,34 @@ body {
 }
 
 .hero {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
     margin-bottom: 2rem;
+    gap: 3rem;
+}
+
+.hero-top-layer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+}
+
+
+.hero-gradient-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 100%;
+    background: #1090b0;
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    z-index: 1;
 }
 
 .hero-photo-card {
@@ -26,7 +49,10 @@ body {
     max-width: 300px;
     aspect-ratio: 1 / 1;
     overflow: hidden;
-    border-radius: 0.5rem;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: -2rem;
 }
 
 .hero-photo-card img {
@@ -42,7 +68,8 @@ body {
     width: 100%;
     color: #fff;
     padding: 0.5rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    text-align: left;
     font-weight: 400;
     margin: 0;
     line-height: 1.2;
