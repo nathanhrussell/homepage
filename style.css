@@ -108,6 +108,13 @@ body {
     font-size: 1.2rem;
 }
 
+.work-icons img {
+    width: 1.2rem;
+    height: 1.2rem;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
 .contact {
     width: 100%;
     max-width: 300px;
