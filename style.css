@@ -106,19 +106,20 @@ body {
 
 .work-card {
     background-color: #fff;
-    border-radius: 0.5rem;
     overflow: hidden;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
     max-width: 300px;
     width: 100%;
     display: block;
     margin: 0 auto;
+    margin-bottom: 4rem;
 }
 
 .work-image {
     background-color: #a7d0cd;
     color: #fff;
-    padding: 2rem;
+    padding: 5rem;
+    font-size: 1.8rem;
     text-align: center;
     font-weight: bold;
     font-family: "Playfair Display";
