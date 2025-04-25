@@ -46,8 +46,8 @@ body {
 .hero-photo-card {
     position: relative;
     width: 100%;
-    max-width: 300px;
-    aspect-ratio: 1 / 1;
+    max-width: 250px;
+    aspect-ratio: 2 / 3;
     overflow: hidden;
     z-index: 2;
     background-color: white;
@@ -184,6 +184,7 @@ body {
     max-width: 300px;
     display: block;
     margin: 2rem auto 0;
+    aspect-ratio: 2 / 2;
 }
 
 .work-card:nth-child(1) .work-image { background-color: #7c75ca; }
