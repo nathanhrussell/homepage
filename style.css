@@ -255,7 +255,7 @@ body {
     .hero-text-card {
         position: absolute;
         top: 8rem;
-        left: 10rem;
+        right: 2.5rem;
         z-index: 1;
         background: white;
         padding: 1rem;
