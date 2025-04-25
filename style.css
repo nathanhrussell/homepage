@@ -224,3 +224,46 @@ body {
 .work-card:nth-child(4) .work-image { background-color: #ca7599; }
 .work-card:nth-child(5) .work-image { background-color: #4692d9; }
 .work-card:nth-child(6) .work-image { background-color: #5e8f4d; }
+
+@media (min-width: 768px) {
+    .hero {
+        position: relative;
+        max-width: 900px;
+        margin: 0 auto;
+        height: 400px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .hero-photo-card {
+        position: absolute;
+        top: 2rem;
+        left: 5rem;
+        z-index: 2;
+        aspect-ratio: 1 / 1;
+    }
+
+    .hero-photo-card h1 {
+        position: absolute;
+        top: -2.5rem;
+        left: 100%;
+        padding-left: 1rem;
+        white-space: nowrap;
+        z-index: 3;
+    }
+
+    .hero-text-card {
+        position: absolute;
+        top: 8rem;
+        left: 10rem;
+        z-index: 1;
+        background: white;
+        padding: 1rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        max-width: 60%;
+    }
+
+    .hero-gradient-wrapper {
+        clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+    }
+}
