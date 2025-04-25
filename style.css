@@ -245,7 +245,6 @@ body {
 
     .hero-photo-card h1 {
         position: absolute;
-        top: -2.5rem;
         left: 100%;
         padding-left: 1rem;
         white-space: nowrap;
@@ -272,5 +271,15 @@ body {
 
     .hero-icons {
         display: none;
+    }
+
+    .hero-text-card-content {
+        padding-left: 180px;
+    }
+
+    .hero-text-card-content p {
+        font-size: 0.70rem;
+        text-align: left;
+        padding-top: 20px;
     }
 }
