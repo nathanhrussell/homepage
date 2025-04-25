@@ -180,9 +180,10 @@ body {
 
 .contact-photo img {
     width: 100%;
+    height: auto;
     max-width: 300px;
     display: block;
-    margin: 0 auto;
+    margin: 2rem auto 0;
 }
 
 .work-card:nth-child(1) .work-image { background-color: #7c75ca; }
