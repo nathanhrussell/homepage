@@ -168,6 +168,7 @@ body {
 
 .contact-info {
     text-align: center;
+    color: white;
 }
 
 .contact-info h2 {
@@ -176,6 +177,20 @@ body {
 
 .contact-icons p {
     margin-top: 0.5rem;
+    color: white;
+}
+
+.social-icons {
+    color: black;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.social-icons i {
+    font-size: 2.5em;
 }
 
 .contact-photo img {
