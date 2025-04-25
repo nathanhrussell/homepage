@@ -254,16 +254,23 @@ body {
 
     .hero-text-card {
         position: absolute;
-        top: 8rem;
+        top: 4rem;
         right: 2.5rem;
+        left: 10rem;
         z-index: 1;
         background: white;
         padding: 1rem;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         max-width: 60%;
+        height: 18rem;
+        width: 23rem;
     }
 
     .hero-gradient-wrapper {
         clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%);
+    }
+
+    .hero-icons {
+        display: none;
     }
 }
