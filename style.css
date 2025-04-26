@@ -302,4 +302,21 @@ body {
         text-align: left;
         padding-top: 20px;
     }
+
+    .work-grid {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 900px;
+        margin: 0 auto;
+        gap: 2rem;
+    }
+
+    .work-card {
+        margin-bottom: 2rem;
+        max-width: none;
+        width: 100%;
+    }
+
+    .my-work {
+        padding: 0 2rem;
+    }
 }
