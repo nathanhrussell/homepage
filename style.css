@@ -152,6 +152,8 @@ body {
     align-items: center;
     background-color: #2596be;
     padding: 2rem 1rem;
+    position: relative;
+    overflow: hidden;
 }
 
 .work-header {
@@ -212,9 +214,13 @@ body {
 
 .contact-photo {
     width: 100%;
-    height: 400px;
+    height: auto;
     overflow: hidden;
     margin: 0;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    margin-bottom: -2rem;
+    width: calc(100% + 2rem);
 }
 
 .contact-photo img {
