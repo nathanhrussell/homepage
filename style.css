@@ -11,6 +11,8 @@ body {
     color: #333;
 }
 
+/* Mobile Layout */
+
 .hero {
     position: relative;
     display: flex;
@@ -237,6 +239,9 @@ body {
 .work-card:nth-child(5) .work-image { background-color: #4692d9; }
 .work-card:nth-child(6) .work-image { background-color: #5e8f4d; }
 
+
+/* Tablet Layout */
+
 @media (min-width: 768px) {
     .hero {
         position: relative;
@@ -359,5 +364,78 @@ body {
         height: auto;
         aspect-ratio: 2 / 3;
         object-fit: cover;
+    }
+
+    /* Desktop Layout */
+    
+    @media (min-width: 1024px) {
+        .hero-icons {
+            display: flex;
+            position: absolute;
+            bottom: 1rem;
+            right: 1.5rem;
+            justify-content: flex-end;
+            gap: 1.5rem;
+            font-size: 1.8rem;
+            z-index: 3;
+        }
+
+        .hero-text-card {
+            position: absolute;
+            top: 4rem;
+            right: 2.5rem;
+            left: 10rem;
+            z-index: 1;
+            background: white;
+            padding: 1rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 60%;
+            height: 18rem;
+            width: 50rem;
+            display: flex;
+        }
+
+        .hero-text-card h2 {
+            text-align: left;
+        }
+        
+        .hero-text-card p {
+            font-size: 0.9rem;
+        }
+
+        .hero-photo-card {
+            position: absolute;
+            top: 2rem;
+            left: 5rem;
+            z-index: 2;
+            aspect-ratio: 1 / 2;
+            max-height: 21rem;
+        }
+
+        .hero::before {
+            content: none;
+        }
+
+        .hero-photo-card h1 {
+            opacity: 1;
+            visibility: visible;
+            position: absolute;
+            bottom: 0.2rem;
+            top: auto;
+            width: 100%;
+            padding: 0.5rem;
+            font-size: 1.8rem;
+            line-height: 1;
+            color: #fff;
+            text-transform: none;
+        }
+
+        .hero-photo-card h1 br {
+            content: " ";
+            display: inline;
+        }
+
+   
+
     }
 }
