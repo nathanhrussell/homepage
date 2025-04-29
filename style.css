@@ -406,27 +406,32 @@ h2, h3 {
     /* Desktop Layout */
     
     @media (min-width: 1024px) {
+
         .hero-icons {
             display: flex;
             position: absolute;
-            bottom: 1rem;
+            bottom: 0.8rem;
             right: 1.5rem;
             justify-content: flex-end;
             gap: 1.5rem;
-            font-size: 1.8rem;
+            font-size: 1rem;
             z-index: 3;
+        }
+
+        .hero-background-container {
+            margin-bottom: 4rem;
         }
 
         .hero-text-card {
             position: absolute;
             top: 4rem;
-            right: 2.5rem;
-            left: 10rem;
+            right: 3.5rem;
+            left: 17rem;
             z-index: 1;
             background: white;
             padding: 1rem;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            max-width: 60%;
+            max-width: 55%;
             height: 18rem;
             width: 50rem;
             display: flex;
@@ -443,10 +448,11 @@ h2, h3 {
         .hero-photo-card {
             position: absolute;
             top: 2rem;
-            left: 5rem;
+            left: 9rem;
             z-index: 2;
-            aspect-ratio: 1 / 2;
-            max-height: 21rem;
+            aspect-ratio: 3 / 4;
+            max-height: 24rem;
+            max-width: 300px;
         }
 
         .hero::before {
@@ -478,8 +484,21 @@ h2, h3 {
 
         .work-grid {
             grid-template-columns: repeat(3, 1fr);
-            max-width: 100%;
+            max-width: 1100px;
+            margin: 0 auto;
             gap: 2rem;
+        }
+
+        .work-card {
+            max-width: 350px;
+            margin: 0 auto;
+        }
+
+        .my-work h2 {
+            text-align: left;
+            max-width: 1100px;
+            margin: 0 auto;
+            margin-bottom: 2rem;
         }
 
         .contact-info {
