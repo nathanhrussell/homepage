@@ -395,6 +395,10 @@ body {
         font-family: "Playfair Display";
     }
 
+    .social-icons {
+        justify-content: flex-start;
+    }
+
     /* Desktop Layout */
     
     @media (min-width: 1024px) {
@@ -472,6 +476,37 @@ body {
             grid-template-columns: repeat(3, 1fr);
             max-width: 100%;
             gap: 2rem;
+        }
+
+        .contact-info {
+            flex: 0 0 45%;
+            padding-left: 20rem;
+        }
+
+        .contact-photo {
+            flex: 0 0 55%;
+            align-items: center;
+            padding-bottom: 2rem;
+        }
+
+        .contact-photo img {
+            max-height: 500px;
+            height: auto;
+            width: 50%;
+            object-fit: cover;
+        }
+
+        .contact-info h2, p {
+            text-align: left;
+            margin-bottom: 1rem;
+        }
+
+        .social-icons {
+            justify-content: flex-start;
+        }
+
+        .contact {
+            padding: 2rem;
         }
 
 
