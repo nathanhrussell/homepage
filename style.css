@@ -11,6 +11,10 @@ body {
     color: #333;
 }
 
+h2, h3 {
+    font-weight: 500;
+}
+
 /* Mobile Layout */
 
 .hero {
